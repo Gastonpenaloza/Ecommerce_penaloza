@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-const Elemento = () => <p>Hola Mundo</p>;
+import App from "./App";
+import "./estilos.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Elemento />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
