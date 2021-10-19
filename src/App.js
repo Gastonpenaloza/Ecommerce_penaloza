@@ -1,12 +1,13 @@
 import Header from "./Header";
+import Footer from "./Footer";
+import ItemListContainer from "./ItemListContainer";
 
 const App = () => {
   return (
     <>
       <Header />
-      <footer>
-        <p>Copyright</p>
-      </footer>
+      <Footer />
+      <ItemListContainer greeting="Bienvenido al E-Commerce" />
     </>
   );
 };

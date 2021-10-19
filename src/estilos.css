@@ -8,11 +8,3 @@ html,
 body {
   height: 100vh;
 }
-
-#main-header {
-  padding: 0.5rem 1rem;
-  background-color: yellow;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
